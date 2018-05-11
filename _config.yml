@@ -24,7 +24,8 @@ url: "https://FazeAdapt.github.io" # the base hostname & protocol for your site,
 #twitter_username: jekyllrb
 github_username: FazeAdapt
 disqus:
-  shortname: FazeAdapt-jeky11-website
+  shortname: jannahatesgian
+
 timezone: America/Los_Angeles
 
 # Build settings
