@@ -1,0 +1,67 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed');
+
+*{
+	padding: 0;
+	margin: 0;
+}
+body {
+	height: 100vh;
+	background: url("images/crouton.jpg") no-repeat center center fixed;
+	background-size: cover;
+	color:rgba(97,156,255,1.00);
+	font-family: 'Barlow Condensed', sans-serif;
+}
+input {
+	background-color: rgba(42,255,77,1.00)
+}
+button {
+}
+
+input {
+	text-align: right
+}
+
+h1 {
+	text-align:center;
+}
+
+#wrapper {
+	width: 620px;
+	margin: 20px auto;
+}
+
+#leftColumn {
+	float: left;
+
+	width: 300px;
+}
+#leftColumn img {
+	width: 100%;
+}
+#rightColumn {
+	float: right;
+
+	width: px;
+	background-color: rgba(135,0,162,1.00);
+	text-align:center;
+	
+	
+}
+input {
+	text-align:right;
+}
+
+#rightColumn input {
+	width: 100px;
+}
+
+#alertMsg{
+	color:#F60004
+}
+
+
+ 
+
