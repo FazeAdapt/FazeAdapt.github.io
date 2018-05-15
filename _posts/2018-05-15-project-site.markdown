@@ -8,4 +8,5 @@ author: FazeAdapt
 
 When I was in junior high, I took an intro to programming class. I learned HTML,CSS, and Javascript. Heres the site I made.
 [project site] [url]
+
 [url]: /website/
