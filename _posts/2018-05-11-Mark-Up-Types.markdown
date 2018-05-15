@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "First Post"
+title:  "Mark Up Types"
 date:   2018-5-11 10:45:20 -0700
 categories: MarkUps
 author: FazeAdapt
