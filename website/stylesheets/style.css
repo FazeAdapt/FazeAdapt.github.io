@@ -1,0 +1,128 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* My Color Palette
+Color 1: #4893B2
+Color 2: #80DAFF
+Color 3: #FFC480
+*/
+
+/************************
+
+    Colors and Fonts
+
+************************/
+	
+
+
+body   {
+		 font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+		 color:lime;
+		 background-color:##80DAFF;
+		 background-image: url("../images/HardBlackAngora-small.gif");
+		 
+}
+
+#header, #sidebar, #content, #footer {
+	background-color: rgba(36,155,155,1.00) ;
+	margin-bottom: 4px;
+	border:dashed;
+	border-radius: 8px;
+	border-color: Blue;
+	padding-left:4px;
+	padding-right: 4px;
+}
+/************************
+
+	
+	
+
+		 
+
+#footer  p {
+	  text-align:right;
+}
+
+/************************
+
+TRANSPARENT BACKGROUND
+
+************************/
+
+/************************
+
+	 BASIC STRUCTURE
+	 
+	 
+************************/
+#wrapper {
+	 width: 960px;
+	 padding: 5px;
+	 margin: 20px auto;
+}
+
+#header {
+	     height: 100px;
+}
+
+#sidebar {
+	       float:left;
+		   width:300px;
+}
+
+#content {
+	      float: right;
+		  width: 600px;
+}
+
+#footer {
+	    clear: both;
+}
+/************************
+
+   RESPONSIVE WIDTH
+
+************************/
+
+@media screen and (max-width: 980px) {
+	   #wrapper {
+		   width: 94%;
+	   }
+	   #content {
+		   width: 65%;
+		   
+	   }
+	   #sidebar {
+		     width: 30%;
+	   }
+	   
+}
+     
+	 @media screen and (max-width: 700px) {
+		 #content, #sidebar {
+			 width: auto;
+			 float: none;
+		 }
+		 #header {
+			         height: auto;
+		 }
+	 }
+	 
+ /************************
+
+    Colors and Fonts
+	
+/************************
+
+
+
+	
+
+
+
+
+
+    
+
+
+

@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Factorial</title>
+</head>
+
+<body>
+
+<script type="text/javascript">
+function Factorial (num) {
+	if(num==0) {
+		return 1;
+	} 
+	return num * Factorial(num-1);
+}
+</script>
+
+<script tye="text/javascript">
+
+var num=prompt("Please enter a number: ");
+alert ( num + " ! is " +Factorial(num));
+</script>
+<table id= "myTable" border="1">
+<th>Factorial</th>
+<th>Value</th>
+<script type="text/javascript">
+
+for ( var i = 0; i <= 5; ++i) {
+	document.write("<tr>"):
+	document.write("<td>" + i + "i" + "</td> "):
+	document.write("<td>" + Factorial(i) + "</td> "):
+	document.write("</tr>");
+}
+</script>
+</table>
+	
+	
+	
+	
+</body>
+</html>

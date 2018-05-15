@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Global Variable</title>
+<script type="text/javascript">
+var cookies = 0;
+function cookie_clicker() {
+	cookies++;
+	document.getElementById("output").innerHTML = cookies;
+}
+</script>
+</head>
+
+<body>
+<a href="Javascript:cookie_clicker()"><img src="../images/cookie/png" alt="Cookie"></a>
+<p id="output"></p>
+</body>
+</html>

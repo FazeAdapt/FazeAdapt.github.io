@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Switch</title>
+</head>
+
+<body>
+
+<script type="type/javascript">
+     var day_of_the_week = Number(prompt("Which day of the week is it? Enter 1 for Sunday, 2 for Monday, etc. " , "1"));
+	 
+	 switch(day_of_the_week) {
+		 case 1:
+		      alert("We are closed on Sundays");
+			  break;
+	    case 2:
+		case 3:
+		case 4:
+		case 5:
+		case 6:
+		     alert("Business hours Monday through Friday are 8am-5pm");
+			 break;
+	    case 7:
+		      alert(Business hours on Saturdays are 10am-3pm");
+			  break;
+		default:
+		     alert("Please try again. Enter 1 for Sunday, 2 for Monday, etc.");
+			 break;
+	 }
+	 </script>
+</body>
+</html>

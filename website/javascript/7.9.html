@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Infinite Loops</title>
+</head>
+
+<body>
+
+<script type="text/javascript">
+var cont = true;
+while (cont) {
+	var fahrenheit = prompt("What is the tempture in Fahrenheit");
+	var celsius = (fahrenheit - 32) * 5/9
+	alert("Here is the temperature in celsius; " + celsius);
+	cont = confirm("Do you want to continue");
+}
+</script>
+	  
+</body>
+</html>

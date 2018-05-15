@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+<title>Tip Calculator</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="wrapper">
+    <header>
+        <h1>Tip Calculator</h1>
+    </header>
+    <form action="javascript:void(calc())">
+        Amount: $<input id="bill" type="text">
+        <br>
+        <input type="submit" value="Calculate">
+        <br>
+        Tip: <span id="tip"></span>
+        <br>
+        Total: <span id="total"></span>
+    </form>
+</div>
+<script>
+    function calc() {
+        var bill = Number(document.getElementById('bill').value);
+        var tip = bill * .15;
+        var total_bill = bill + tip;
+
+        document.getElementById("tip").innerHTML= "$"+Number(tip).toFixed(2);
+        document.getElementById("total").innerHTML= "$"+Number(total_bill).toFixed(2);         
+    }
+</script>
+</body>

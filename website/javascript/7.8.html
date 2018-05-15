@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>loops with break and continue</title>
+</head>
+
+<body>
+
+<script type="text/javascript">
+      while (true) { 
+	        var time = eval(prompt("What hour is it? Please write in military time."));
+			if( time < 0 || time > 24 ) {
+				alert("Error. Time cannot be less than 0 or greater than 24");
+				continue;
+			}
+			if( time >= 6  && time <= 10 )
+			     {alert("Noice! We have continental breakfast served in the lobby"); }
+				 var answer= prompt("Would you like to make a reservation?");
+			
+			 if( answer!="yes") {
+					 prompt("Enter the hour you would like.");
+				 }
+				  if( answer!="no") {
+					  break;
+				  }
+				 
+				
+				 else if( time >= 11  && time <= 2)
+				       {alert("Noice! We got lunch at the resturant!"); }
+			
+				else if( time >= 17 && time < =21 )
+				       {alert(Noice! We got dinner at the resturant!"); }
+					    if( answer!="yes") {
+							 prompt("Enter the hour you would like.");
+						}
+			
+				else
+				       { alert("Ha! The resturant is not open!Starve you or you get a snack nerd!");
+					  
+					   }
+		
+</script>					 
+</body>
+</html>
